@@ -1,0 +1,75 @@
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+// Include theme-specific fonts
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Open+Sans');
+
+// Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #434850;
+$headingColor: #333;
+
+$mainFontSize: 38px;
+$mainFont: 'Open Sans', sans-serif;
+$headingFont: 'Paytone One', 'Open Sans', sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 400;
+$linkColor: #5992bf;
+$linkColorHover: #396b93;
+$selectionBackgroundColor: lighten($linkColor, 25%);
+
+$heading1Size: 2em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-dark-background {
+    &, h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+}
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+.reveal {
+    footer {
+        position: fixed;
+        top: auto;
+        bottom: 1em;
+        left: 1em;
+        padding: .5em;
+        z-index: 100;
+        font-size: 0.5em;
+        background: rgba(255, 255, 255, 0.7);
+
+        a {
+            color: darken($linkColor, 15%);
+        }
+    }
+}
+
+.slides {
+    .slides-link {
+        display: block;
+        margin-top: 1em;
+        font-size: smaller;
+        white-space: nowrap;
+
+        + .slides-link {
+            margin-top: 0;
+        }
+    }
+}

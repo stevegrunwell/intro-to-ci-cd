@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Build and Release Confidently with Continuous Integration and Delivery",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "stevegrunwell",
+    "githubRepository": "intro-to-ci-cd"
+  }
+}
