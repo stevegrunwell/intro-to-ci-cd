@@ -10,7 +10,7 @@
 // ---------------------------------------------
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css?family=Paytone+One|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Paytone+One|Open+Sans:400,600');
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
 $backgroundColor: #fff;
@@ -29,7 +29,7 @@ $linkColor: #5992bf;
 $linkColorHover: #396b93;
 $selectionBackgroundColor: lighten($linkColor, 25%);
 
-$heading1Size: 2em;
+$heading1Size: 1.7em;
 $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
@@ -45,6 +45,20 @@ section.has-dark-background {
 // ---------------------------------------------
 
 .reveal {
+    section {
+        img, a > img, a:hover > img {
+            border: none;
+            background: none;
+            box-shadow: none;
+        }
+    }
+
+    h2, h3, h4 {
+        img {
+            max-height: 2em;
+        }
+    }
+
     footer {
         position: fixed;
         top: auto;
@@ -59,9 +73,20 @@ section.has-dark-background {
             color: darken($linkColor, 15%);
         }
     }
+
+    .tweet {
+        img {
+            border: 1px solid #ccc !important;
+            border-radius: 10px;
+        }
+    }
 }
 
 .slides {
+    h1 {
+        margin-bottom: 1em;
+    }
+
     .slides-link {
         display: block;
         margin-top: 1em;
@@ -71,5 +96,16 @@ section.has-dark-background {
         + .slides-link {
             margin-top: 0;
         }
+    }
+
+    .fragment-replacement {
+        .fragment.fade-out.visible,
+        .fragment.fade-in:not(.visible) {
+            display: none;
+        }
+    }
+
+    dd {
+        margin-bottom: 1em;
     }
 }

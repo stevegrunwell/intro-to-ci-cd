@@ -3,7 +3,7 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url("https://fonts.googleapis.com/css?family=Paytone+One|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Paytone+One|Open+Sans:400,600");
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -50,7 +50,7 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2em; }
+  font-size: 1.7em; }
 
 .reveal h2 {
   font-size: 1.6em; }
@@ -286,6 +286,14 @@ body {
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
+.reveal section img, .reveal section a > img, .reveal section a:hover > img {
+  border: none;
+  background: none;
+  box-shadow: none; }
+
+.reveal h2 img, .reveal h3 img, .reveal h4 img {
+  max-height: 2em; }
+
 .reveal footer {
   position: fixed;
   top: auto;
@@ -298,6 +306,13 @@ body {
   .reveal footer a {
     color: #396b93; }
 
+.reveal .tweet img {
+  border: 1px solid #ccc !important;
+  border-radius: 10px; }
+
+.slides h1 {
+  margin-bottom: 1em; }
+
 .slides .slides-link {
   display: block;
   margin-top: 1em;
@@ -305,3 +320,10 @@ body {
   white-space: nowrap; }
   .slides .slides-link + .slides-link {
     margin-top: 0; }
+
+.slides .fragment-replacement .fragment.fade-out.visible,
+.slides .fragment-replacement .fragment.fade-in:not(.visible) {
+  display: none; }
+
+.slides dd {
+  margin-bottom: 1em; }
