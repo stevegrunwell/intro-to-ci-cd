@@ -2,8 +2,8 @@
 
 * <!-- .element: class="fragment" --> Run multiple production environments/servers
     - Some active (blue), some idle (green)
-* <!-- .element: class="fragment" --> Deploy to the idle servers
-* <!-- .element: class="fragment" --> Once ready, route traffic to the green environment
+* <!-- .element: class="fragment" --> Deploy to green
+* <!-- .element: class="fragment" --> Once ready, route traffic to green
     - Blue becomes idle
 * <!-- .element: class="fragment" --> In case of issues, re-route to blue
 
