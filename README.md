@@ -18,4 +18,5 @@ For this talk, we’ll be using GitLab’s (free) CI/CD pipelines, but the princ
 
 ## Presentation History
 
+* [php[world] 2019](https://world.phparch.com/) — October 23, 2019
 * [Cincy Deliver 2019](https://www.cincydeliver.org/) — July 26, 2019 ([PDF](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/cincy-deliver-2019/slides.pdf))
