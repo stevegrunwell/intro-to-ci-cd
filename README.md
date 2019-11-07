@@ -18,5 +18,6 @@ For this talk, we’ll be using GitLab’s (free) CI/CD pipelines, but the princ
 
 ## Presentation History
 
+* [Ohio Laravel](https://www.meetup.com/Ohio-Laravel/events/264572560/) — November 6, 2019 ([PDF](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/ohio-laravel-2019/slides.pdf), [YouTube](https://youtu.be/F6UfcBUCNSs))
 * [php[world] 2019](https://world.phparch.com/) — October 23, 2019 ([PDF](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/php-world-2019/slides.pdf), [Joind.in](https://joind.in/talk/f557c))
 * [Cincy Deliver 2019](https://www.cincydeliver.org/) — July 26, 2019 ([PDF](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/cincy-deliver-2019/slides.pdf))
