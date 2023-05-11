@@ -8,7 +8,7 @@ Fear not, my dear developers! This talk breaks down the basic concepts of contin
 
 For this talk, we’ll be using GitLab’s (free) CI/CD pipelines, but the principles translate well to any major CI/CD platform!
 
-:sparkles: **[View slides](http://stevegrunwell.github.io/intro-to-ci-cd)** :sparkles:
+:sparkles: **[View slides](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/php-tek-2023/slides.pdf)** :sparkles:
 
 ## Resources
 
@@ -18,6 +18,7 @@ For this talk, we’ll be using GitLab’s (free) CI/CD pipelines, but the princ
 
 ## Presentation History
 
+* [php[tek] 2023](https://tek.phparch.com) — May 18, 2023 ([PDF](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/php-tek-2023/slides.pdf), [Joind.in](https://joind.in/event/phptek-2023/build-and-release-confidently-with-continuous-integration-and-delivery))
 * [Ohio Laravel](https://www.meetup.com/Ohio-Laravel/events/264572560/) — November 6, 2019 ([PDF](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/ohio-laravel-2019/slides.pdf), [YouTube](https://youtu.be/F6UfcBUCNSs))
 * [php[world] 2019](https://world.phparch.com/) — October 23, 2019 ([PDF](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/php-world-2019/slides.pdf), [Joind.in](https://joind.in/talk/f557c))
 * [Cincy Deliver 2019](https://www.cincydeliver.org/) — July 26, 2019 ([PDF](https://github.com/stevegrunwell/intro-to-ci-cd/releases/download/cincy-deliver-2019/slides.pdf))
